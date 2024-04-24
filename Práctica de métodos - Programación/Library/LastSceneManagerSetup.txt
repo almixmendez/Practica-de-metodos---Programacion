@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Inventario.unity
+- path: Assets/Scenes/Misiones.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -18,16 +18,19 @@ public class Inventory : MonoBehaviour
     public void AddToInventory(GameObject collectable, int collectableNum)
     {
         collectableCount += collectableNum;
-        CoinsUpdate(collectableNum);
+        CoinsUpdate(1);
     }
 
     public void RemoveFromInventory(GameObject collectable, int collectableNum)
     {
-        if ()
+        if (collectableCount > 0)
         {
-
+            collectableCount--;
+            CoinsUpdate(-1);
         }
-        collectableCount -= collectableNum;
-        CoinsUpdate(-collectableNum);
+        else
+        {
+            Debug.Log("There are no more coins to remove!");
+        }
     }
 }

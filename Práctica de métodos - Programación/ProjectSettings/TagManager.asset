@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Mission1
+  - Mission2
+  - Mission3
   layers:
   - Default
   - TransparentFX

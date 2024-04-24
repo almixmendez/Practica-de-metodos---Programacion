@@ -23,4 +23,9 @@ public class PlayerInteractions_I : MonoBehaviour
             inventory.AddToInventory(other.gameObject, 1);
         }
     }
+
+    public void RemoveCoin()
+    {
+        inventory.RemoveFromInventory(collectable, 1);
+    }
 }
